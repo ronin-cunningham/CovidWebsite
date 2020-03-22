@@ -7,7 +7,10 @@ export const NavigationBar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="/">COVID19 Demystified</Navbar.Brand>
+        <Navbar.Brand href="/">
+          <h2>COVID19 Demystified</h2>
+          <h6>Science is fighting for you: Let us show you how.</h6>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
