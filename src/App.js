@@ -8,11 +8,13 @@ import { Faq } from "./faq/Faq";
 import { Contact } from "./contact/Contact";
 import { NoMatch } from "./components/NoMatch";
 import { NavigationBar } from "./components/NavigationBar";
+import { Jumbotron } from "./components/Jumbotron";
 
 function App() {
   return (
     <React.Fragment>
       <NavigationBar />
+      <Jumbotron />
       <Container>
         <Router>
           <Switch>
