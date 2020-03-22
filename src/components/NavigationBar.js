@@ -8,7 +8,7 @@ export const NavigationBar = () => {
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand href="/">
-          <h2>COVID19 Demystified</h2>
+          <h2>COVID-19 Demystified</h2>
           <h6>Science is fighting for you: Let us show you how.</h6>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

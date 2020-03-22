@@ -5,7 +5,10 @@ import Container from "react-bootstrap/Container";
 export const Home = () => {
   return (
     <React.Fragment>
-      <span>Home</span>
+      <h1>Latest re-hashed Articles</h1>
+      <Container>
+        article 1 text ______________________________ article 2 text
+      </Container>
       <Button href="/researchrehashed">Click here for more articles!</Button>
     </React.Fragment>
   );
